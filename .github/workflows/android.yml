@@ -31,8 +31,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Scene-Compiled-APK
-        path:     - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: Scene-Compiled-APK
         path: "**/build/outputs/apk/**/*.apk"
